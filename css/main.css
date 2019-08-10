@@ -1,0 +1,183 @@
+/***** BASE STYLES *****/
+
+body {
+    width: 1400px;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+nav ul li a {
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+h2 {
+    color: #F85717;
+    font-family: 'Source Code Pro';
+    text-align: center;
+    font-size: 36px;
+    padding: 50px 0 100px 0;
+    margin: 0px;
+}
+
+/***** GRID *****/
+
+header {
+    height: 724px;
+}
+
+#portfolio {
+    height: auto;
+}
+
+#about {
+    height: 550px;
+}
+
+#contact {
+    height: 400px;
+}
+
+.full-width {
+    width: 1400px;
+}
+
+.half-width {
+    width: 600px;
+}
+
+.third-width {
+    width: 400px;
+}
+
+#wrapper {
+    background-color: rgb(9, 28, 46);
+}
+
+/***** NAV *****/
+
+#nav-bar {
+    background-color: rgb(9, 28, 46);
+    overflow: auto;
+}
+
+#nav-one {
+    float: left;
+    padding-left: 20px;
+}
+
+#nav-two {
+    float: right;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.text-white {
+    color: white;
+}
+
+/***** HEADER *****/
+
+header {
+    background-image: url('../img/ocean.jpg');
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Source Code Pro';
+    font-size: 72px;
+    font-weight: 600;
+    color: black;
+    padding: 180px 0 0 100px;
+    margin: 0;
+}
+
+.heading-word {
+    color: #F85717;
+}
+
+/***** PORTOFOLIO *****/
+
+.flex-portfolio {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+}
+
+#portfolio {
+    padding-bottom: 50px;
+}
+
+#rogue, #vangbergs-orange {
+    box-sizing: border-box;
+    padding-right: 70px;
+}
+
+#jubilee, #vangbergs-green {
+    box-sizing: border-box;
+    padding-right: 70px;
+}
+
+#portfolio h3 {
+    color: white;
+}
+
+#portfolio p {
+    color: white;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+    background-image: url('../img/boat-million.jpg');
+}
+
+#about p {
+    padding-left: 100px;
+    color: white;
+}
+
+#about h3 {
+    padding-left: 100px;
+    color: white;
+}
+
+/***** CONTACT *****/
+
+#contact h3 {
+    color: white;
+}
+
+#contact p {
+    color: white;
+}
+
+#flex-contact {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#contact div {
+    text-align: center;
+}
+
+#twitter, #github {
+    box-sizing: border-box;
+    padding: 10px;
+}
